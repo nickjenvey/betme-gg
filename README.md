@@ -5,16 +5,23 @@ A betting application allowing users to watch, see upcoming, and bet against the
 ## Setup
 
 #### Front End
- - `cd` into `react-front-end`
- - `npm install` or `yarn` to install dependencies.
+- `cd` into `react-front-end`.
+- `npm install` or `yarn` to install dependencies.
+ 
+#### Back End
+- `cd` into `express-back-end`.
+- `npm install` or `yarn` to install dependencies.
 
 ## Usage
+You need **two** terminal windows/tabs for this (or some other plan for running two Node processes).
 
-You need **TWO** terminal windows/tabs for this (or some other plan for running two Node processes).
+#### Front End
+- `cd` into `react-front-end`.
+- `npm start` or `yarn start`, and go to `localhost:3000` in your browser.
 
-In one terminal, `cd` into `react-front-end`. Run `npm install` or `yarn` to install the dependencies. Then run `npm start` or `yarn start`, and go to `localhost:3000` in your browser.
-
-In the other terminal, `cd` into `express-back-end`. Run `npm install` or `yarn` to install the dependencies, then `npm start` or `yarn start` to launch the server.
+#### Back End
+- `cd` into `express-back-end`.
+- `npm start` or `yarn start` to launch the server.
 
 ## Dependencies
 - Ant Design
