@@ -4,7 +4,7 @@ A betting application allowing users to watch, see upcoming, and bet against the
 
 ## Setup
 
-### Front End
+#### Front End
  - `cd` into `react-front-end`
  - `npm install` or `yarn` to install dependencies.
 
